@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: Poppins;
+  width: 100%;
+  background-color: #EEF7FB;
+  background-image: url("../img/hero-img.png");
+  background-repeat: no-repeat;
+  background-position: right 133px;
+  background-size: 40%;
+}
+
+.header__navigation ul li a, .header-hero h1, .header-hero p, .header-hero a {
+  font-style: normal;
+  line-height: normal;
+}
+
+.container {
+  max-width: 1110px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header__navigation {
+  padding-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header__navigation .header__logo {
+  width: 110px;
+  height: 36px;
+}
+
+.header__navigation .header__nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+}
+
+.header__navigation ul li a {
+  text-decoration: none;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  color: #232D22;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.header__navigation ul li a:hover {
+  background: -webkit-linear-gradient(red, orange, black);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.header__navigation ul li:last-child {
+  margin-left: 50px;
+}
+
+.header__navigation ul li:last-child {
+  padding: 11px 47px;
+  border-radius: 4px;
+  border: 1px solid #232D22;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  background-size: 200% auto;
+}
+
+.header__navigation ul li:last-child:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  background-image: -webkit-gradient(linear, left top, right top, from(#000000), color-stop(51%, #434343), to(#000000));
+  background-image: linear-gradient(to right, #000000 0%, #434343 51%, #000000 100%);
+  color: #fff;
+  text-decoration: none;
+  border-color: transparent;
+}
+
+.header__navigation ul li:last-child:hover a {
+  color: white;
+}
+
+.header-hero {
+  margin-top: 98px;
+  width: 500px;
+}
+
+.header-hero h1 {
+  color: #232D22;
+  font-size: 64px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.header-hero h1:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#30CFD0), to(#330867));
+  background: linear-gradient(#30CFD0 0%, #330867 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.header-hero p {
+  color: rgba(35, 45, 34, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+.header-hero p:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(red), to(orange));
+  background: linear-gradient(red 0%, orange 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.header-hero a {
+  color: #FFF;
+  text-align: center;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 20px 33px;
+  border-radius: 4px;
+  background: #232D22;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
+  background-size: 200% auto;
+}
+
+.header-hero a:hover {
+  background-image: -webkit-gradient(linear, left top, right top, from(#000000), color-stop(51%, #434343), to(#000000));
+  background-image: linear-gradient(to right, #000000 0%, #434343 51%, #000000 100%);
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+/*# sourceMappingURL=main.css.map */
